@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example.musicapp" "\0"
-            VALUE "FileDescription", "farmrole" "\0"
+            VALUE "CompanyName", "com.example" "\0"
+            VALUE "FileDescription", "dangnhap" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "farmrole" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example.musicapp. All rights reserved." "\0"
-            VALUE "OriginalFilename", "farmrole.exe" "\0"
-            VALUE "ProductName", "farmrole" "\0"
+            VALUE "InternalName", "dangnhap" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "dangnhap.exe" "\0"
+            VALUE "ProductName", "dangnhap" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

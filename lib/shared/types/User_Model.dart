@@ -46,8 +46,7 @@ class UserModel {
   }
 
   factory UserModel.fromJson(Map<String, dynamic> json) {
-    final data = json['user'] ?? json;
-
+    final data = json['user'] ?? json; // Giả định, cần log để xác nhận
     return UserModel(
       id: data['id'] ?? '',
       email: data['email'] ?? '',
@@ -56,7 +55,7 @@ class UserModel {
       avatar: data['avatar'],
       roles: data['role'] is List ? List<String>.from(data['role']) : [],
       isActive: data['isActive'],
-      token: json['token'] ?? json['accessToken'],
+      token: json['token'] ?? json['accessToken'], // Giả định token
       refreshToken: json['refreshToken'],
     );
   }
